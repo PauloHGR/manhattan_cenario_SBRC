@@ -1,0 +1,1 @@
+/home/paulo/sumo-git/tools/randomTrips.py -n ../../manhattan_2km.net.xml --trip-attributes="type=\"pType_0\"" --additional-file type-ped.add.xml -r manhattanPed.rou.xml -b 0 -e 1 -p 0.003624 --persontrips

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2021-12-07 11:49:58 by Eclipse SUMO duarouter Version 1.11.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="../../manhattan_2km.net.xml"/>
+        <additional-files value="type-ped.add.xml"/>
+        <route-files value="trips.trips.xml"/>
+    </input>
+
+    <output>
+        <output-file value="manhattanPed.rou.xml"/>
+        <alternatives-output value="manhattanPed.rou.alt.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="1"/>
+    </time>
+
+    <report>
+        <no-warnings value="true"/>
+        <ignore-errors value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <person id="0" type="pType_0" depart="0.00">
+        <personTrip from="483236728#6" to="-420872204" walkFactor="0.75" costs="480.80"/>
+    </person>
+    <person id="1" type="pType_0" depart="0.02">
+        <personTrip from="382532607#1" to="226041019" walkFactor="0.75" costs="651.98"/>
+    </person>
+    <person id="2" type="pType_0" depart="0.04">
+        <personTrip from="543717203#3" to="496983399#1" walkFactor="0.75" costs="892.86"/>
+    </person>
+    <person id="3" type="pType_0" depart="0.06">
+        <personTrip from="587061854" to="144001605#1" walkFactor="0.75" costs="1522.23"/>
+    </person>
+    <person id="4" type="pType_0" depart="0.08">
+        <personTrip from="438385431#4" to="-420904659" walkFactor="0.75" costs="366.86"/>
+    </person>
+    <person id="5" type="pType_0" depart="0.10">
+        <personTrip from="226041001#4" to="460606347#0" walkFactor="0.75" costs="968.93"/>
+    </person>
+    <person id="6" type="pType_0" depart="0.12">
+        <personTrip from="-420872209" to="226040998#0" walkFactor="0.75" costs="698.21"/>
+    </person>
+    <person id="7" type="pType_0" depart="0.14">
+        <personTrip from="489019752#0" to="464515614#1" walkFactor="0.75" costs="586.73"/>
+    </person>
+    <person id="8" type="pType_0" depart="0.16">
+        <personTrip from="226041001#5" to="46469732#0" walkFactor="0.75" costs="844.59"/>
+    </person>
+    <person id="9" type="pType_0" depart="0.18">
+        <personTrip from="5671401#4" to="-335935798#1" walkFactor="0.75" costs="740.57"/>
+    </person>
+    <person id="10" type="pType_0" depart="0.20">
+        <personTrip from="5671401#12" to="527867881#0" walkFactor="0.75" costs="719.00"/>
+    </person>
+    <person id="11" type="pType_0" depart="0.22">
+        <personTrip from="420499931#0" to="222299248#0" walkFactor="0.75" costs="1202.44"/>
+    </person>
+    <person id="12" type="pType_0" depart="0.24">
+        <personTrip from="663499009#1" to="415849235#2" walkFactor="0.75" costs="762.02"/>
+    </person>
+    <person id="13" type="pType_0" depart="0.26">
+        <personTrip from="157014136#1" to="157014137#0" walkFactor="0.75" costs="952.89"/>
+    </person>
+    <person id="14" type="pType_0" depart="0.28">
+        <personTrip from="5672273#1" to="465101198#0" walkFactor="0.75" costs="410.34"/>
+    </person>
+    <person id="15" type="pType_0" depart="0.30">
+        <personTrip from="5671401#3" to="542257009#2" walkFactor="0.75" costs="1239.18"/>
+    </person>
+    <person id="16" type="pType_0" depart="0.32">
+        <personTrip from="46334599#1" to="68668541#0" walkFactor="0.75" costs="425.69"/>
+    </person>
+    <person id="17" type="pType_0" depart="0.34">
+        <personTrip from="420872201#2" to="464683319" walkFactor="0.75" costs="879.65"/>
+    </person>
+    <person id="18" type="pType_0" depart="0.36">
+        <personTrip from="5671774#14" to="46581216#2" walkFactor="0.75" costs="1197.55"/>
+    </person>
+    <person id="19" type="pType_0" depart="0.38">
+        <personTrip from="5672965#2" to="46469720#1" walkFactor="0.75" costs="1444.80"/>
+    </person>
+    <person id="20" type="pType_0" depart="0.40">
+        <personTrip from="527867887#2" to="-496982022#0" walkFactor="0.75" costs="1248.62"/>
+    </person>
+    <person id="21" type="pType_0" depart="0.42">
+        <personTrip from="335935797#0" to="385106581#1" walkFactor="0.75" costs="1035.99"/>
+    </person>
+    <person id="22" type="pType_0" depart="0.44">
+        <personTrip from="118400729#12" to="335935799#0" walkFactor="0.75" costs="524.33"/>
+    </person>
+    <person id="23" type="pType_0" depart="0.46">
+        <personTrip from="157014137#2" to="382535022#0" walkFactor="0.75" costs="1638.10"/>
+    </person>
+    <person id="24" type="pType_0" depart="0.48">
+        <personTrip from="483236728#4" to="420872186" walkFactor="0.75" costs="1227.51"/>
+    </person>
+    <person id="25" type="pType_0" depart="0.50">
+        <personTrip from="420872191" to="226041000#3" walkFactor="0.75" costs="962.46"/>
+    </person>
+    <person id="26" type="pType_0" depart="0.52">
+        <personTrip from="381477008#0" to="630828585#0" walkFactor="0.75" costs="1806.65"/>
+    </person>
+    <person id="27" type="pType_0" depart="0.54">
+        <personTrip from="483704512#0" to="46520833#3" walkFactor="0.75" costs="694.44"/>
+    </person>
+    <person id="28" type="pType_0" depart="0.56">
+        <personTrip from="222299276#8" to="542257009#2" walkFactor="0.75" costs="1487.17"/>
+    </person>
+    <person id="29" type="pType_0" depart="0.58">
+        <personTrip from="222299276#2" to="420872201#2" walkFactor="0.75" costs="541.54"/>
+    </person>
+    <person id="30" type="pType_0" depart="0.60">
+        <personTrip from="68674968#1" to="483236728#6" walkFactor="0.75" costs="276.55"/>
+    </person>
+    <person id="31" type="pType_0" depart="0.62">
+        <personTrip from="464683322" to="518451327#1" walkFactor="0.75" costs="1007.19"/>
+    </person>
+    <person id="32" type="pType_0" depart="0.64">
+        <personTrip from="5672211#3" to="5670673#1" walkFactor="0.75" costs="243.01"/>
+    </person>
+    <person id="33" type="pType_0" depart="0.66">
+        <personTrip from="335935797#1" to="-428569356" walkFactor="0.75" costs="786.00"/>
+    </person>
+    <person id="34" type="pType_0" depart="0.68">
+        <personTrip from="388240124#3" to="381480256#1" walkFactor="0.75" costs="1089.41"/>
+    </person>
+    <person id="35" type="pType_0" depart="0.70">
+        <personTrip from="226041000#4" to="630828586#1" walkFactor="0.75" costs="1971.67"/>
+    </person>
+    <person id="36" type="pType_0" depart="0.72">
+        <personTrip from="5673626#1" to="388240124#3" walkFactor="0.75" costs="937.18"/>
+    </person>
+    <person id="37" type="pType_0" depart="0.74">
+        <personTrip from="489019752#3" to="420904660#2" walkFactor="0.75" costs="834.47"/>
+    </person>
+    <person id="38" type="pType_0" depart="0.76">
+        <personTrip from="602266745#6" to="458166892#0" walkFactor="0.75" costs="1151.97"/>
+    </person>
+    <person id="39" type="pType_0" depart="0.78">
+        <personTrip from="381477004#0" to="368938760#0" walkFactor="0.75" costs="194.37"/>
+    </person>
+    <person id="40" type="pType_0" depart="0.80">
+        <personTrip from="464683336" to="381474197#1" walkFactor="0.75" costs="839.23"/>
+    </person>
+    <person id="41" type="pType_0" depart="0.82">
+        <personTrip from="46469731#1" to="588168464" walkFactor="0.75" costs="495.65"/>
+    </person>
+    <person id="42" type="pType_0" depart="0.84">
+        <personTrip from="421852618#1" to="226041001#4" walkFactor="0.75" costs="744.90"/>
+    </person>
+    <person id="43" type="pType_0" depart="0.86">
+        <personTrip from="690414969" to="460606348#1" walkFactor="0.75" costs="104.99"/>
+    </person>
+    <person id="44" type="pType_0" depart="0.88">
+        <personTrip from="144001606#1" to="-526571477#1" walkFactor="0.75" costs="1564.71"/>
+    </person>
+    <person id="45" type="pType_0" depart="0.90">
+        <personTrip from="194923807#3" to="483236728#0" walkFactor="0.75" costs="1817.95"/>
+    </person>
+    <person id="46" type="pType_0" depart="0.92">
+        <personTrip from="5671349#2" to="438385431#4" walkFactor="0.75" costs="936.45"/>
+    </person>
+    <person id="47" type="pType_0" depart="0.94">
+        <personTrip from="-5672190#2" to="420872204" walkFactor="0.75" costs="153.30"/>
+    </person>
+    <person id="48" type="pType_0" depart="0.96">
+        <personTrip from="68674968#4" to="46334598#2" walkFactor="0.75" costs="494.91"/>
+    </person>
+    <person id="49" type="pType_0" depart="0.98">
+        <personTrip from="68668519#1" to="5672487#7" walkFactor="0.75" costs="969.24"/>
+    </person>
+</routes>
